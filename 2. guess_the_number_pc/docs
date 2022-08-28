@@ -1,0 +1,20 @@
+# random library: https://docs.python.org/3/library/random.html
+# Wiki: https://en.wikipedia.org/wiki/Mersenne_Twister
+# Wikinfo: https://it.wikibooks.org/wiki/Implementazioni_di_algoritmi/Mersenne_Twister
+# Official Site: http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/emt.html
+# Diehard tests: https://en.wikipedia.org/wiki/Diehard_tests
+# random library: https://docs.python.org/3/library/random.html
+
+La funzione random si basa sull'algoritmo di Mersenne Twister.
+Implementazione standard MT19937, basato sul 2^19937 - 1.
+
+Vantaggi:
+- con licenza permissiva e senza brevetto (tranne CryptMT)
+- supera numerosi test di casualità, inclusi i Diehard tests (link: https://en.wikipedia.org/wiki/Diehard_tests),
+ma non tutti i TestU01.
+- k-distribuited to 32-bit accurata per ogni 1<k<623
+
+ref: https://en.wikipedia.org/wiki/Mersenne_Twister
+# tutorial: https://www.youtube.com/watch?v=_tN2ev3hO14
+# https://it.frwiki.wiki/wiki/Mersenne_Twister
+
